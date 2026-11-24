@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>iShallNotSlip – riktig temperatur, rett i bilen</title>
+<meta name="description" content="iShallNotSlip viser målt luft- og veibanetemperatur der bilen er, og varsler deg når det er fare for frost. For Polestar 4 med Google innebygd.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23F47B20' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='M12 1.5L12 22.5 M2.91 6.75L21.09 17.25 M2.91 17.25L21.09 6.75'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topp"><div class="innhold"><a href="./"><svg viewBox="0 0 24 24" fill="none" stroke="#F47B20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 1.5L12 22.5 M2.91 6.75L21.09 17.25 M2.91 17.25L21.09 6.75 M12 6.4L9.47 4.12 M12 6.4L14.53 4.12 M7.15 9.2L3.92 10.25 M7.15 9.2L6.44 5.87 M7.15 14.8L6.44 18.13 M7.15 14.8L3.92 13.75 M12 17.6L14.53 19.88 M12 17.6L9.47 19.88 M16.85 14.8L20.08 13.75 M16.85 14.8L17.56 18.13 M16.85 9.2L17.56 5.87 M16.85 9.2L20.08 10.25"/></svg></a><a href="./">iShallNotSlip</a></div></header>
+<main class="innhold">
+<h1>Riktig temperatur, rett i bilen.</h1>
+<p class="ingress">Bilens termometer kan vise flere grader for varmt, akkurat når det betyr mest. iShallNotSlip viser målt luft- og veibanetemperatur fra nærmeste målestasjon, og sier fra når det er fare for frost på veien.</p>
+<a class="knapp" href="https://play.google.com/store/apps/details?id=com.atstern.ishallnotslip">Last ned fra Google Play</a>
+<p class="liten">For biler med Google innebygd. Testet i Polestar 4. Engangskjøp, ingen abonnement. Dekker hele Norge.</p>
+
+<div class="skjerm" role="img" aria-label="Eksempel på appens skjerm: frostfare, luft minus 0,5 grader, veibane minus 1,2 grader og beregnet pluss 0,8 grader">
+<div class="tittel">TEMPERATUR</div>
+<div class="rad"><svg viewBox="0 0 24 24" fill="none" stroke="#F47B20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 1.5L12 22.5 M2.91 6.75L21.09 17.25 M2.91 17.25L21.09 6.75 M12 6.4L9.47 4.12 M12 6.4L14.53 4.12 M7.15 9.2L3.92 10.25 M7.15 9.2L6.44 5.87 M7.15 14.8L6.44 18.13 M7.15 14.8L3.92 13.75 M12 17.6L14.53 19.88 M12 17.6L9.47 19.88 M16.85 14.8L20.08 13.75 M16.85 14.8L17.56 18.13 M16.85 9.2L17.56 5.87 M16.85 9.2L20.08 10.25"/></svg><div><div class="verdi">FROSTFARE</div><div class="under">Lufttemperatur sier ikke sikkert om veien er glatt</div></div></div>
+<div class="rad"><svg viewBox="0 0 24 24" fill="none" stroke="#F47B20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 14.8V4a2 2 0 1 0-4 0v10.8a4 4 0 1 0 4 0z"/></svg><div><div class="verdi">LUFT: &minus;0,5 °C</div><div class="under">Haukelifjell · 3,2 km · målt kl. 06:40</div></div></div>
+<div class="rad"><svg viewBox="0 0 24 24" fill="none" stroke="#F47B20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 21L7 4 M14 21L9 4 M8 18v3 M8 11.5v3 M8 6v2.5 M20.5 15.2V6.5a1.5 1.5 0 1 0-3 0v8.7a2.5 2.5 0 1 0 3 0z"/></svg><div><div class="verdi">VEIBANE: &minus;1,2 °C</div><div class="under">Samme stasjon · Statens vegvesen</div></div></div>
+<div class="rad"><svg viewBox="0 0 24 24" fill="none" stroke="#F47B20" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg><div><div class="verdi">BEREGNET: +0,8 °C</div><div class="under">MET Nowcast · din posisjon</div></div></div>
+</div>
+
+<h2>Dette gjør appen</h2>
+<div class="kort">
+<div><h3>Målt temperatur der du er</h3><p>Lufttemperatur fra nærmeste målestasjon, med stasjonsnavn, avstand og når den ble målt.</p></div>
+<div><h3>Temperatur i veibanen</h3><p>Fra Statens vegvesens værstasjoner langs veien. Veien kan være under null selv når luften er over.</p></div>
+<div><h3>Varsel om frostfare</h3><p>Et varsel på skjermen når det nærmer seg null grader, og når temperaturen krysser null. Også mens du kjører.</p></div>
+<div><h3>Starter av seg selv</h3><p>Etter at du har gitt tilgang, følger appen med i bakgrunnen. Du trenger ikke åpne den før hver tur.</p></div>
+<div><h3>Personvern</h3><p>Posisjonen rundes av til omtrent én kilometer og lagres ikke. Ingen konto, ingen reklame, ingen sporing.</p></div>
+<div><h3>Pålitelige kilder</h3><p>Målinger og beregninger fra Meteorologisk institutt og Statens vegvesen, oppdatert hvert tiende minutt.</p></div>
+</div>
+
+<h2>Dette trenger du</h2>
+<ul>
+<li>En bil med Google innebygd (Android Automotive OS), for eksempel Polestar 4.</li>
+<li>Internett i bilen.</li>
+<li>At du tillater omtrentlig posisjon og varsler, og posisjon i bakgrunnen for varsler uten å åpne appen.</li>
+</ul>
+
+<h2>Klar på et minutt</h2>
+<ol>
+<li>Installer iShallNotSlip fra Google Play i bilen.</li>
+<li>Åpne appen og trykk <strong>Gi tilgang</strong>. Godta omtrentlig posisjon og varsler.</li>
+<li>Trykk på tannhjulet, velg <strong>Posisjon i bakgrunnen</strong>, og tillat alltid.</li>
+<li>Kjør. Appen følger temperaturen og sier fra når det er fare for frost.</li>
+</ol>
+
+<h2>Godt å vite</h2>
+<p class="merknad">Temperaturene er målinger og beregninger fra stasjoner i nærheten, og kan avvike fra forholdene akkurat der du kjører. Lufttemperatur sier ikke sikkert om veien er glatt. iShallNotSlip er et hjelpemiddel og erstatter ikke din egen vurdering av veiforholdene. Kjør alltid etter forholdene.</p>
+<p>Appen bruker åpne data fra Meteorologisk institutt og Statens vegvesen. Hvis disse tjenestene endres eller blir utilgjengelige, kan deler av appen slutte å virke. Appen dekker bare Norge. <a href="vilkar.html">Les bruksvilkårene</a>.</p>
+
+<h2>Personvern</h2>
+<p>iShallNotSlip sender bilens omtrentlige posisjon, avrundet til omtrent én kilometer, til vår server for å finne temperaturen der du er. Posisjonen lagres ikke, og det finnes ingen konto eller innlogging. <a href="personvern.html">Les personvernerklæringen</a>.</p>
+</main>
+<footer><div class="innhold">
+<p>iShallNotSlip er laget av atStern AS. Kontakt: <a href="mailto:support@atstern.com">support@atstern.com</a> · <a href="personvern.html">Personvernerklæring</a> · <a href="vilkar.html">Bruksvilkår</a></p>
+<p>Værdata fra Meteorologisk institutt (MET Norway, CC BY 4.0) og Statens vegvesen (NLOD).</p>
+<p>iShallNotSlip er en uavhengig app og har ingen tilknytning til Polestar, Meteorologisk institutt eller Statens vegvesen. Polestar er et varemerke som tilhører sin eier.</p>
+</div></footer>
+</body>
+</html>

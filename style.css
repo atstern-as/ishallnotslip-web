@@ -1,0 +1,55 @@
+:root {
+  --bakgrunn: #1E2228;
+  --flate: #262B33;
+  --kant: rgba(255, 255, 255, 0.14);
+  --tekst: #FFFFFF;
+  --dempet: #BAC1CC;
+  --oransje: #F47B20;
+  --oransje-lenke: #FF9A52;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bakgrunn);
+  color: var(--tekst);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.6;
+}
+a { color: var(--oransje-lenke); }
+a:hover { color: #FFB884; }
+.innhold { max-width: 52rem; margin: 0 auto; padding: 0 1.25rem; }
+header.topp { border-bottom: 1px solid var(--kant); }
+header.topp .innhold { display: flex; align-items: center; gap: 0.6rem; padding-top: 1rem; padding-bottom: 1rem; }
+header.topp a { color: var(--tekst); text-decoration: none; font-weight: 600; font-size: 1.15rem; }
+header.topp svg { width: 1.6rem; height: 1.6rem; flex: none; }
+h1 { font-size: clamp(2rem, 6vw, 3rem); line-height: 1.15; margin: 2.5rem 0 1rem; letter-spacing: -0.01em; }
+h2 { font-size: 1.5rem; margin: 3rem 0 1rem; }
+h3 { font-size: 1.1rem; margin: 0 0 0.3rem; }
+p { margin: 0 0 1rem; }
+.ingress { font-size: 1.2rem; color: var(--dempet); max-width: 40rem; }
+.knapp {
+  display: inline-block; margin: 0.5rem 0 0.75rem; padding: 0.85rem 1.6rem; border-radius: 999px;
+  background: var(--oransje); color: #1E2228; font-weight: 700; text-decoration: none;
+}
+.knapp:hover { background: #FF8A35; color: #1E2228; }
+.liten { font-size: 0.95rem; color: var(--dempet); }
+.skjerm {
+  margin: 2.5rem 0; background: var(--flate); border: 1px solid var(--kant); border-radius: 1.25rem;
+  padding: 1.25rem 1.5rem; max-width: 36rem;
+}
+.skjerm .tittel { font-weight: 600; letter-spacing: 0.04em; margin-bottom: 0.5rem; }
+.rad { display: flex; gap: 1rem; align-items: center; padding: 0.85rem 0; border-top: 1px solid var(--kant); }
+.rad svg { width: 2rem; height: 2rem; flex: none; }
+.rad .verdi { font-weight: 600; letter-spacing: 0.02em; }
+.rad .under { font-size: 0.9rem; color: var(--dempet); }
+.kort { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1rem; }
+.kort > div { background: var(--flate); border: 1px solid var(--kant); border-radius: 1rem; padding: 1.1rem 1.25rem; }
+.kort p { margin: 0; color: var(--dempet); }
+ul, ol { padding-left: 1.3rem; }
+li { margin-bottom: 0.4rem; }
+.merknad { border-left: 3px solid var(--oransje); padding-left: 1rem; color: var(--dempet); }
+footer { margin-top: 4rem; border-top: 1px solid var(--kant); padding: 2rem 0 3rem; color: var(--dempet); font-size: 0.95rem; }
+footer p { margin-bottom: 0.6rem; }
+.dato { color: var(--dempet); }
